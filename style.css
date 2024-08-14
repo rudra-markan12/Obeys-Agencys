@@ -1,0 +1,89 @@
+@font-face {
+  font-family:  plain light;
+  src: url("/plain-light-webfont.font1.ttf");
+}
+@font-face {
+  font-family:  plain regular;
+  src: url("/plain-regular-webfont.font2.ttf");
+}
+@font-face {
+  font-family:  light;
+  src: url("/silkserif-lightitalic-webfont.font3.ttf");
+}
+@font-face {
+  font-family:  regular-light;
+  src: url("/silkserif-regularitalic-webfont.font4.ttf");
+}
+@font-face {
+  font-family: rudra;
+  src: url("/pxiEyp8kv8JHgFVrJJfecg.font5.ttf");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #ffff;
+  font-family: plain light;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+#loader{
+  width: 100%;
+  height: 100vh;
+  z-index: 999;
+  background-color: #000000;
+  position: fixed;
+  padding: 20vh 10vw;
+}
+.line {
+  /* jitni height rahegi utni sapce lega */
+  height: fit-content;  
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; 
+  gap: 4vw;
+
+}
+#line1-part1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1vw;
+}
+#line1-part1 h5 , #line1-part1 h6{
+  font-size: 3vw;
+  font-family:  light;
+  font-weight: 200;
+}
+#line1-part1 h5{
+  
+  width: 5vw;
+  text-align: right;
+}
+.line h1{
+  font-size: 5.5vw;
+  text-transform: uppercase;
+  font-weight: 500;
+  
+}
+.line h2{
+  font-size: 5.5vw;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family:regular-light;
+  margin-left: -2vw;
+  
+}
+#main {
+  position: relative;
+}
+
+#page1 {
+  width: 100%;
+  height: 100vh;
+  background-color: #151515;
+}
